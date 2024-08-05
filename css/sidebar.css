@@ -1,6 +1,6 @@
 .nav__lateral {
-    padding: 0em 1em 0em 2em;
-    position: fixed;
+    padding: 0em 1em 0em 1.5em;
+    position: absolute;
     top: 12%;
     text-align: start;
     height: 100vh;
@@ -17,7 +17,7 @@
     margin-right: 1em;
 }
 
-.nav__lateral__inicio__item > span {
+.nav__lateral__inicio__item>span {
     font-weight: 500;
     line-height: 1.5em;
 }
