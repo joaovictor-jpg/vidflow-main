@@ -1,0 +1,30 @@
+.nav__lateral {
+    padding: 0em 1em 0em 2em;
+    position: fixed;
+    top: 12%;
+    text-align: start;
+    height: 100vh;
+}
+
+.nav__lateral__inicio__item {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav__lateral__inicio__item__img {
+    margin-right: 1em;
+}
+
+.nav__lateral__inicio__item > span {
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.nav__lateral__linha {
+    width: 14em;
+    background: #144480;
+    height: 2px;
+    margin-top: 1.5em;
+}

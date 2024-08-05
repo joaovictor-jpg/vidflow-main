@@ -8,39 +8,150 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="css/sidebar.css">
     <title>VidFlow</title>
     <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
 </head>
 
 <body>
-    
+
 </body>
-    <header>
-        <nav class="cabecalho__container">
-            <div class="logo__item">
-                <img src="img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow">
+<header>
+    <nav class="cabecalho__container">
+        <div class="logo__item">
+            <img src="img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow">
+        </div>
+        <div class="cabecalho__pesquisa__item">
+            <form class="form__pesquisa">
+                <input type="search" class="pesquisar__input" placeholder="Pesquisar">
+                <img src="img/topbar/keyboard.png" alt="Ícone de teclado" class="pesquisar__input-teclado">
+                <button class="pesquisar__btn">
+                    <img src="img/topbar/search.png" alt="Ícone de lupa">
+                </button>
+                <button class="cabecalho__audio">
+                    <img src="img/topbar/Mic.png" alt="Ícone de microfose">
+                </button>
+            </form>
+        </div>
+        <div class="cabecalho__icon__item">
+            <a href="#" class="cabecalho__videos"></a>
+            <a href="#" class="cabecalho__apps"></a>
+            <a href="#" class="cabecalho__avatar"></a>
+            <label class="cabecalho__switch">
+                <input type="checkbox" class="cabecalho__switch-input">
+                <span class="cabecalho__switch-slider"></span>
+            </label>
+        </div>
+    </nav>
+</header>
+<main>
+    <aside>
+        <nav class="nav__lateral">
+            <div class="nav__lateral__inicio">
+                <ul>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/home.png" alt="Botão para volta ao início">
+                        <span>Início</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/explore.png" alt="Botão de Explorar">
+                        <span>Explorar</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/airplay.png" alt="Botão de shorts">
+                        <span>Shorts</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/subscriptions.png" alt="Botão de inscrição">
+                        <span>Inscrições</span>
+                    </li>
+                </ul>
             </div>
-            <div class="cabecalho__pesquisa__item">
-                <form class="form__pesquisa">
-                    <input type="search" class="pesquisar__input" placeholder="Pesquisar">
-                    <img src="img/topbar/keyboard.png" alt="Ícone de teclado" class="pesquisar__input-teclado">
-                    <button class="pesquisar__btn">
-                        <img src="img/topbar/search.png" alt="Ícone de lupa">
-                    </button>
-                    <button class="cabecalho__audio">
-                        <img src="img/topbar/Mic.png" alt="Ícone de microfose">
-                    </button>
-                </form>
+            <hr class="nav__lateral__linha">
+            <div class="nav__lateral__inicio">
+                <ul>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/video_library.png" alt="Botão para biblioteca">
+                        <span>Biblioteca</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/history.png" alt="Botão de histórico">
+                        <span>Histórico</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/history_toggle_off.png" alt="Botão de assistir mais tarde">
+                        <span>Assistir mais tarde</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/thumb_up_alt.png" alt="Botão de inscrição">
+                        <span>Marcados como com like</span>
+                    </li>
+                </ul>
             </div>
-            <div class="cabecalho__icon__item">
-                <a href="#" class="cabecalho__videos"></a>
-                <a href="#" class="cabecalho__apps"></a>
-                <a href="#" class="cabecalho__avatar"></a>
-                <label class="cabecalho__switch">
-                    <input type="checkbox" class="cabecalho__switch-input">
-                    <span class="cabecalho__switch-slider"></span>
-                </label>
+            <hr class="nav__lateral__linha">
+            <div class="nav__lateral__inicio">
+                <ul>
+                    <li class="nav__lateral__inicio__item">
+                        <span>INSCRIÇÕES</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Alura.png" alt="Logo Alura">
+                        <span>Alura</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Gaveta.png" alt="Foto do canal do Gaveta">
+                        <span>Gaveta</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Rafa.png" alt="Foto de perfil da Rafaella Ballerini">
+                        <span>Rafaella Ballerini</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Atila.png" alt="Foto de perfil do canal Atila">
+                        <span>Atila Iamarino</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Souto.png" alt="Foto de perfil do canal Souto">
+                        <span>Mario Souto</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Jovem_Nerd.png" alt="Foto de perfil do canal Jovem Nerd">
+                        <span>Jovem Nerd</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/Avatar_Deschamps.png" alt="Foto de perfil do canal Felipe Deschamps">
+                        <span>Felipe Deschamps</span>
+                    </li>
+
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/keyboard_arrow_down.png" alt="Seta para exibir mais inscrições">
+                        <span>Mostrar mais 2</span>
+                    </li>
+                </ul>
             </div>
+            <hr class="nav__lateral__linha">
+            <div class="nav__lateral__inicio">
+                <ul>
+                    <li class="nav__lateral__inicio__item">
+                        <span>MAIS DA PÁGINA</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/ondemand_video.png" alt="Alura Premio">
+                        <span>Vídeos Premium</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/movie.png" alt="Filmes">
+                        <span>Filmes</span>
+                    </li>
+                    <li class="nav__lateral__inicio__item">
+                        <img class="nav__lateral__inicio__item__img" src="img/sidebar/sports_esports.png" alt="Jogos">
+                        <span>Rafaella Ballerini</span>
+                    </li>
+                </ul>
+            </div>
+            <hr class="nav__lateral__linha">
         </nav>
-    </header>
+    </aside>
+</main>
+
 </html>
